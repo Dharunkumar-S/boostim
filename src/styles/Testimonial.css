@@ -1,0 +1,70 @@
+.test {
+    display: flex;
+    padding: 5rem 5rem;
+    justify-content: space-between;
+}
+
+.test .cont-1 {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.test .cont-1 .p1 {
+    color: #010205;
+    font-family: "Plus Jakarta Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.09rem;
+}
+
+.test .cont-1 .p2 {
+    color: #878C91;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.test .cont-1 .btns {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.test .cont-1 .btns button {
+    border-radius: 4.375rem;
+    background: #010205;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.02rem;
+}
+
+.test .cont-1 .btns p {
+    color: #010205;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+}

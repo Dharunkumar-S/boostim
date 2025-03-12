@@ -1,0 +1,37 @@
+.call {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    height: 12rem;
+    background-color: black;
+    border-radius: 1.875rem;
+}
+
+.call p {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.15rem;
+}
+
+.call button {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.625rem;
+    border-radius: 4.375rem;
+    background: #FFF;
+    color: #010205;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.02rem;
+}

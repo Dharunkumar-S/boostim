@@ -1,0 +1,25 @@
+.sec2-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.sec2-cont p:nth-child(1) {
+    color: #010205;
+    font-family: "Plus Jakarta Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.09rem;
+}
+
+.sec2-cont p:nth-child(2) {
+    color: #878C91;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}

@@ -1,0 +1,86 @@
+
+.nav-cont {
+    display: flex;
+    min-width: 100%;
+    padding: 1.875rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-cont .nav-cont-1 {
+    display: flex;
+    gap: 4.625rem;
+    align-items: center;
+}
+
+.nav-cont .nav-1 {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-cont .nav-1 img {
+    width: 2.0625rem;
+    height: 2.0625rem;
+}
+
+.nav-cont .nav-1 p {
+    color: #020407;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.075rem;
+}
+
+.nav-cont .nav-2 ul {
+    display: flex;
+    gap: 2.06rem;
+}
+
+.nav-cont .nav-2 li {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.nav-cont .nav-2 li p {
+    color: #020407;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-cont .nav-cont-2 {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-cont .nav-btn-1 {
+    border-radius: 3.125rem;
+    border: 2px solid #010205;
+    width: 9.75rem;
+    padding: 0.8125rem 1rem;
+    font-family: "Manrope";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.02rem;
+    background-color: white;
+}
+
+.nav-cont .nav-btn-2 {
+    border-radius: 50%;
+    background: #010205;
+    display: flex;
+    width: 3.125rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-cont .nav-btn-2 .bell {
+    color: white;
+    font-size: 1.5rem;
+}

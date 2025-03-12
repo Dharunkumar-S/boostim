@@ -1,0 +1,160 @@
+.blogs {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 4rem;
+}
+
+.blogs .cont-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.blogs .cont-1 .p1 {
+    width: 60%;
+    color: #010205;
+    font-family: "Plus Jakarta Sans";
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.09rem;
+}
+
+.blogs .cont-1 .b1 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.blogs .cont-1 .b1 p {
+    color: #878C91;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.blogs .cont-1 .b1 .btn {
+    border-radius: 3.125rem;
+    border: 1px solid #010205;
+    width: 9.75rem;
+    padding: 1.0625rem 1rem;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.blogs .cont-1 .b1 .btn:hover {
+    background: #010205;
+    color: white;
+}
+
+.blogs .cont-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.blogs .blog-cards {
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.blogs .blog-card {
+    background: white;
+    padding: 20px;
+    border-radius: 4%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 24rem;
+    height: 18rem;
+    position: relative;
+}
+
+.blogs .blog-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #010205;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.04875rem;
+}
+
+.blogs .blog-card .blog-desc {
+    font-size: 0.9rem;
+    color: #666;
+    overflow: hidden;
+    color: #878C91;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.blogs .blog-card .read-time {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #878C91;
+    text-overflow: ellipsis;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.blogs .indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.blogs .blue {
+    background: blue;
+}
+
+.blogs .orange {
+    background: orange;
+}
+
+.blogs .purple {
+    background: purple;
+}
+
+.blogs .arrow-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: all 0.3s ease-in-out;
+}
+
+.blogs .arrow-btn:hover {
+    background: black;
+    color: white;
+}

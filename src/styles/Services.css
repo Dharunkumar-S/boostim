@@ -1,0 +1,161 @@
+.serv-cont {
+    position: relative;
+    padding: 1.875rem 1rem;
+    width: 99vw;
+    border-radius: 1.875rem;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.serv-cont .serv-cont1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.serv-cont .bg-img1 {
+    width: 98%;
+    height: 98%;
+    position: absolute;
+    background-image: url("../assets/Moon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1.875rem;
+    filter: blur(1px);
+    z-index: -1;
+}
+
+.serv-cont .serv-cont1 p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.09rem;
+}
+
+.serv-cont .serv-cont1 .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.serv-cont .serv-cont1 .btn {
+    border-radius: 3.125rem;
+    width: 14.75rem;
+    padding: 0.8125rem 1rem;
+    border: none;
+    color: #010205;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.02rem;
+}
+
+.serv-cont .serv-cont1 .btn2 {
+    background: #99CF63;
+}
+
+.serv-cont .serv-cont2 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 0 3rem;
+    gap: 8rem;
+}
+
+.serv-cont .serv-cont2 .serv-cont2-c1 {
+    width: 24.75rem;
+    height: 24.75rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    background: #C3C3C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/phone.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.serv-cont .serv-cont2 .serv-cont2-c1 .details {
+    width: 10.1875rem;
+    height: 10.1875rem;
+    border-radius: 64.47788rem;
+    background: #99EA48;
+    color: #000;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+    letter-spacing: -0.03375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv-cont .serv-cont2 .serv-cont2-body {
+    display: flex;
+    width: 60%;
+    gap: 9rem;
+}
+
+.serv-cont .serv-cont2 .serv-cont2-c {
+    min-width: 24.75rem;
+    height: 24.75rem;
+    border-radius: 1rem;
+    border: 3px solid white;
+    background: #C3C3C3;
+    backdrop-filter: blur(67px);
+    background-image: url("../assets/phone.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.serv-cont .serv-cont2 .serv-cont2-c .b1 {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.serv-cont .serv-cont2 .serv-cont2-c .bar {
+    width: 25%;
+    height: 0.2rem;
+    background-color: white;
+}
+
+.serv-cont .serv-cont2 .serv-cont2-c p {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126%;
+    letter-spacing: -0.03188rem;
+}
+
+.serv-cont .serv-cont2 .serv-cont2-c .b2 {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}

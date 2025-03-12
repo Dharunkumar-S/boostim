@@ -1,0 +1,136 @@
+.footer {
+    background: #f5f5f5;
+    padding: 3rem 5rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-left {
+    max-width: 400px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+.footer-left p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #010205;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #5b5b5b;
+}
+
+.footer-middle h3,
+.footer-right h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li {
+    margin-bottom: 8px;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.footer-middle ul li a:hover {
+    color: #010205;
+}
+
+.footer-right p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer-right svg {
+    font-size: 1.2rem;
+    color: #010205;
+}
+
+.footer .logo h2 {
+    color: #020407;
+    font-family: Manrope;
+    font-size: 2.31819rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.11594rem;
+}
+
+.footer .footer-left p {
+    color: #9B9B9C;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.social-icons .s-icons {
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+.footer .footer-middle h3,
+.footer .footer-right h3 {
+    color: #192031;
+    font-family: Manrope;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.01125rem;
+}
+
+.footer .footer-middle li,
+.footer .footer-right li ,
+.footer .footer-right p {
+    margin-top: 1.5rem;
+    color: #9B9B9C;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.0175rem;
+}
